@@ -1,0 +1,73 @@
+/* .container {
+  
+} */
+body {
+    overflow: hidden;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.24)),
+                      url('./pics/background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    position: relative;
+    top: -40px;
+    z-index: 1; /* Ensure content is above the overlay */
+    padding: 20px;
+    color: white; /* Example text color */
+}
+.navbar1 {
+    position: relative;
+    top: -90px;
+    left: 250px;
+}
+.navbar1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Make navbar inline */
+.navbar1 ul li {
+    display: inline;
+}
+
+.navbar1 ul li a {
+    font-size: 26px;
+    color: white; /* Example text color */
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.navbar2 {
+    position: relative;
+    top: -90px;
+    left: 250px;
+}
+.navbar2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Make navbar inline */
+.navbar2 ul li {
+    display: inline;
+}
+
+.navbar2 ul li a {
+    font-size: 26px;
+    color: white; /* Example text color */
+    text-decoration: none;
+    padding: 10px;
+    
+}
